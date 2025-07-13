@@ -44,3 +44,9 @@ def index():
                            worst_year=worst_year,
                            plot_html=plot_html)
 
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
