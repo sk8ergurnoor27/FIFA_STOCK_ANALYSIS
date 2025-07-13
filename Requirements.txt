@@ -1,4 +1,6 @@
-Flask
-pandas
+flask
+gunicorn
 yfinance
+pandas
 plotly
+
